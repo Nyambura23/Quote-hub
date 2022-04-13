@@ -9,9 +9,9 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    new Quote(1, 'Chop life, problem no dey finish', 'The streets', new Date(2022,4,14)),
-    new Quote(2, 'Jispoil, You deserve it', 'A Kenyan Proverb', new Date(2022,4,14)),
-    new Quote(3, 'Silence is golden, duct tape is silver',' Case Files', new Date(2022,4,14)),
+    new Quote(1, 'Chop life, problem no dey finish', 'The streets', new Date(2022,1,14)),
+    new Quote(2, 'Jispoil, You deserve it', 'A Kenyan Proverb', new Date(2022,2,14)),
+    new Quote(3, 'Silence is golden, duct tape is silver',' Case Files', new Date(2022,3,14)),
     new Quote(4, 'If you dont survive at first, skydiving is is not for you', 'Wise man',new Date(2022,4,14)),
     ];
     
