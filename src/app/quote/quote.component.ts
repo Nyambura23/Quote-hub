@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] = [
-    {id:1, name:'Chop life, problem no dey finish', description:'The streets'},
-    {id:2, name:'Jispoil, You deserve it', description:'A Kenyan Proverb'},
-    {id:3, name:'Silence is golden, duct tape is silver', description:' Case Files'},
-    {id:4, name:'If you dont survive at first, skydiving is is not for you', description:'Wise man'},
+    new Quote(1, 'Chop life, problem no dey finish', 'The streets'),
+    new Quote(2, 'Jispoil, You deserve it', 'A Kenyan Proverb'),
+    new Quote(3, 'Silence is golden, duct tape is silver',' Case Files'),
+    new Quote(4, 'If you dont survive at first, skydiving is is not for you', 'Wise man'),
     ];
     
   constructor() { }
