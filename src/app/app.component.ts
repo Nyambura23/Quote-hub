@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quote = 'Chop life, problem no dey finish';
+  quote = 'Chop life, problem no dey finish'
 }
