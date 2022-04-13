@@ -1,5 +1,5 @@
 <p>{{quote.description}}</p>
 <p>This quote was created {{quote.creationDate|dateCount}} days ago</p>
-<button (click)='upvote()'>{{quote.likes}}</button>
-<button (click)='downvote()'>{{quote.dislikes}}</button>
-<button (click)= 'quoteDelete(true)'>Delete Quote</button>
+<button (click)='upvote()'>{{quote.likes}}<i class="bi bi-hand-thumbs-up"></i></button>
+<button (click)='downvote()'>{{quote.dislikes}}<i class="bi bi-hand-thumbs-down-fill"></i></button>
+<button (click)= 'quoteDelete(true)'><i class="bi bi-trash3-fill"></i></button>
