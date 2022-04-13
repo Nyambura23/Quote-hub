@@ -9,6 +9,11 @@ import { Quote } from '../quote';
 export class QuoteDetailComponent implements OnInit {
 
   @Input () quote: Quote;
+  isRead: any;
+
+  quoteDelete(read:boolean){
+    this.isRead.emit(read);
+  }
 
   
   constructor() { }
