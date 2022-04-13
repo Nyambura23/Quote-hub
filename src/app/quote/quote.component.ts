@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
@@ -15,6 +15,10 @@ export class QuoteComponent implements OnInit {
     new Quote(4, 'If you dont survive at first, skydiving is is not for you', 'Wise man'),
     ];
     
+    toggleDetails(index: any){
+      this.quotes[index].showDescription = !this.quotes[index].showDescription;
+    }
+
   constructor() { }
 
   ngOnInit(): void {
