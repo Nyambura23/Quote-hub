@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quote = 'Chop life, problem no dey finish'
+quotes:string[];
+
+constructor(){
+this.quotes = [ 'Chop life, problem no dey finish','It is what it is', 'Such is life' ]
+}
+
+  // quote = 'Chop life, problem no dey finish'
 }
