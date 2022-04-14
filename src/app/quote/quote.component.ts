@@ -26,7 +26,7 @@ export class QuoteComponent implements OnInit {
       this.quotes[index].showDescription = !this.quotes[index].showDescription;
     }
 
-    deleteQuote(isRead: any, index: any){
+    deleteQuote(isRead , index){
       if (isRead) {
         let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
   
@@ -36,7 +36,6 @@ export class QuoteComponent implements OnInit {
       }
     }
   
-
   constructor() { }
 
   ngOnInit(): void {
