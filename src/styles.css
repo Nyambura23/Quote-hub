@@ -4,10 +4,14 @@
 
 
 body{
-  background-image: url("../src/assets/ashutosh-saraswat-CXyz3qljaH8-unsplash.jpg");
+  background-image: url("../src/assets/tools-for-motivation-KvTOwKoji7g-unsplash.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+}
+
+h1{
+  text-align: center;
 }
