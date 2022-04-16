@@ -11,7 +11,7 @@ Open terminal or a similar app on your computer
 
 Change directory to Desktop
 
-Copy 
+Copy https://github.com/Nyambura23/Quote-hub
 
 Use git clone and paste that link after it to clone the repository
 
